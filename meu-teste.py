@@ -4,4 +4,8 @@
 def saudar():
     return "olá mundo"
 
-print(saudar())
+def main():
+    msg = saudar()
+    print(msg)
+
+main()
